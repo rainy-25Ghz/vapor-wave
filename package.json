@@ -1,0 +1,23 @@
+{
+  "name": "glsl_parcel_template",
+  "version": "1.0.0",
+  "description": "",
+  "source": "./src/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build",
+    "clear_all": "rm -rf .parcel-cache && rm -rf dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-glsl": "2.3.2",
+    "@parcel/transformer-inline-string": "2.3.2",
+    "parcel": "^2.3.2"
+  },
+  "dependencies": {
+    "@types/three": "^0.141.0",
+    "popmotion": "^11.0.3",
+    "three": "^0.141.0"
+  }
+}
